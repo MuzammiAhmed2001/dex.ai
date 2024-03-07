@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:wght@400;500;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif !important;
+}
+
+.top-header {
+    font-size: 12px;
+}
+
+.grad {
+    background-image: linear-gradient(to right, rgb(235, 189, 65), rgb(243, 81, 113), rgb(154, 65, 204), rgb(84, 115, 241), rgb(71, 149, 252));
+}
+
+.dropp {
+    background-color: #F1F3FA;
+    border-radius: 20px;
+    gap: 15px;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+
+.btn-top {
+    background-color: #160042;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-top:hover {
+    background-color: #6721FF;
+}
+
+
+.p1-hero {
+    font-size: 50px;
+    font-weight: 700;
+    color: #160042;
+}
+
+.p1-hero span {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.btns {
+    gap: 30px;
+}
+
+.btn-1 {
+    background-color: #6721FF;
+    border-radius: 20px;
+    padding: 8px 10px;
+    color: white;
+    font-size: 14px;
+    box-shadow: 3px 3px 0px black;
+}
+
+.chk {
+    background-color: #F1F3FA;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* section 2 main */
+
+.section2-main {
+    background-image: url(img/sec2-bg.png);
+}
+
+/* section 3 start */
+.section3-main {
+    gap: 20px;
+}
+
+.sec3-trad img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cont-sec3 {
+    padding: 10px 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cont-sec3 h3 {
+    color: #160042;
+}
+
+.cont-sec3 i {
+    background-color: #160042;
+    font-size: 8px;
+}
+
+
+.cont-sec3 p {
+    font-size: 13px;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.section4-main-muz {
+    margin-top: 100px !important;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom: 2px solid #160042;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/* section 4 end */
+
+
+.section5-main {
+    height: auto;
+    background-image: url(img/sec2-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+
+.swi {
+    gap: 10px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #fff;
+    display: none;
+}
+
+.card1-1st h3 {
+    font-size: 14px;
+    color: #160042;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card1-1st h3 span {
+    font-size: 12px;
+}
+
+.card1-2nd {
+    font-size: 12px;
+}
+
+/* section6 start */
+
+/* Style the tab */
+/* Style the tab */
+.tab2 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.tablink i {
+    color: #8265bb;
+}
+
+/* Style the buttons inside the tab */
+.tab2 button {
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 17px;
+    transition: 0.3s;
+    font-size: 12px !important;
+    width: 160px;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab2 button.active {
+    background-color: #fdfdfd;
+}
+
+/* Style the tab content */
+.tabcontent2 {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.p-i {
+    width: 40px;
+    height: 40px;
+}
+
+.p-i:hover {
+    background-color: #160042 !important;
+    color: white !important;
+    transition: 1s ease;
+}
+
+/* section6 end */
+
+/* section 7 start */
+.sec7-p,
+.s7-i {
+    color: gray;
+}
+
+.advan {
+    color: #160042;
+}
+
+.s7-btn {
+    width: 200px;
+}
+
+.s7-btn:hover {
+    box-shadow: none;
+    transition: 1s ease;
+}
+
+
+/* Style the tab */
+.tab3 {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab3 button {
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: 0.3s;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab3 button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab3 button.active {
+    background-color: #ccc;
+    border: 1px solid #160042;
+}
+
+/* Style the tab content */
+.tabcontent3 {
+    display: none;
+    padding: 6px 12px;
+}
+
+.l-i {
+    bottom: 10px;
+    color: #160042;
+}
+
+.l-i span {
+    color: gray;
+    font-size: 14px;
+}
+
+/* section 7 end */
+
+
+/* section 8 strat */
+
+.section8-main {
+    background-image: url(img/sec2-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    color: gray;
+    margin: 3.3rem;
+}
+
+.toggle {
+    margin-top: 2rem;
+    color: rgb(192, 186, 186);
+}
+
+.checkbox {
+    display: none;
+}
+
+.sub {
+    background-color: #6721FF;
+    height: 1.6rem;
+    width: 3.3rem;
+}
+
+.circle {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.checkbox:checked+.sub {
+    justify-content: flex-end !important;
+}
+
+
+.card {
+    background-color: white;
+    color: #160042;
+    border-radius: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.li-i {
+    background-color: #160042;
+    width: 15px;
+    height: 15px;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+ul li.price {
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+.btn-muz {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #6721FF;
+    color: white;
+}
+
+.active-btn {
+    background-color: black;
+}
+
+.number-main {
+    background: linear-gradient(270.97deg, #FAEC60 -12.41%, #E5A34B 1.99%, #EE6E4D 14.83%, #F44380 32.71%, #BE3DB3 48.64%, #7746E6 70.26%, #5A71F1 86.95%, #439EFF 99.96%);
+}
+
+.num1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #160042;
+    margin: 0px;
+}
+
+.num1 span,
+.num-p {
+    color: gray;
+    font-size: 12px;
+}
+
+.num2 {
+    background-color: #F1F3FA;
+    padding-bottom: 65px !important;
+}
+
+/* section 8 end */
+
+/* section 9 start */
+.footer-con h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer-con p {
+    margin: 0;
+    color: gray;
+}
+
+.footer-con p:hover {
+    color: #160042;
+    border-bottom: 1px solid #160042;
+    transition: .5s ease-in;
+}
+
+.img-bg {
+    background-image: linear-gradient(to bottom, rgb(235, 180, 206), rgb(255, 255, 255));
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.fot-muz h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.fot-muz p {
+    font-size: 12px;
+    color: gray;
+}
+
+.fot-muz p:hover {
+    color: #160042;
+    transition: .5s ease-in;
+}
+
+.fot-social i:hover {
+    background-color: #6721FF;
+    border-radius: 50%;
+    color: white;
+    transition: .5s ease;
+}
+
+/* section 9 end */
+
+@media screen and (max-width: 768px) {
+    .sec4-cont-muz p {
+        width: 100% !important;
+    }
+
+    .fot-join,
+    .pri-mas {
+        width: 100%;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .btn-muz {
+        width: 265px;
+    }
+
+    .btn-res {
+        width: 300px;
+    }
+
+    .sec8-cont {
+        border-top-right-radius: 20px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .card-2 {
+        width: 400px;
+    }
+
+    .num2 {
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 20px !important;
+        border-bottom-right-radius: 20px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card-2 {
+        width: 490px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .p1-hero {
+        font-size: 30px;
+    }
+
+    .sec2-icon {
+        display: none;
+    }
+
+    .btns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec3-trad {
+        margin-bottom: 20px;
+    }
+
+    .partners {
+        width: 70px;
+    }
+
+    .l-i span {
+        font-size: 12px;
+    }
+
+    .btn-muz {
+        width: 300px;
+    }
+
+
+
+    .fot-join {
+        justify-content: flex-start !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lange {
+        margin-top: 30px !important;
+    }
+
+    .btn-muz {
+        width: 200px;
+    }
+
+    .l-i {
+        padding: 2px 5px !important;
+    }
+
+    .sec6-btns {
+        flex-direction: column !important;
+    }
+}
